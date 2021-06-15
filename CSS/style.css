@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body{
+    background-image: url('../IMG/mar.jpg');
+    background-size: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > section {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+main > section > .container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main > section > .container > header{
+    height: 100%;
+    width: 500px;
+
+}
+
+main > section > .container > header > nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+main > section > .container > header > nav > ul {
+    height: 100%;
+    width: 30%;
+    margin: 2px;
+}
+
+main > section > .container > header > nav > ul > li {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 3px;
+
+}
+
+main > section > .container > header > nav > ul > li > a {
+    text-decoration: none;
+    color:#707070;
+}
+
+.li_preto{
+    background: rgba(0, 0, 0, 0.6);
+}
+.li_preto > img {
+    width: 35px;
+}
+
+
+.li_branco{
+    background-color: white;    
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.6);
+    margin-bottom: 150px;
+}
+
+.nome > h1{
+   color: white;
+   text-align: center;
+ 
+}
+
+.pai{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.pai > .seta {
+    width: 120px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    border: 0;
+    cursor: pointer;
+}
+
+.pai > .seta > h1 {
+ color: white;
+ text-align: center;
+ font-weight: 400;
+}
+
+.copy{
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+.copy > p {
+    color: white;
+}
+
